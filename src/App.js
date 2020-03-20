@@ -1,82 +1,22 @@
-import React from 'react';
-import colobus from './assets/colobus.png';
-import './App.css';
-import FeatureCol from './common/FeatureCol';
+import React from 'react'
+import './App.css'
+import PromoScreen from './app/PromoScreen'
+
 
 function App() {
+  // const [ isloggedIn, setIsLoggedIn ] = useState(false)
+  // useEffect(() => {
+  //   // go check user is logged in or not
+  // }, [])
+  //
+  // if (isloggedIn) {
+  //   return (
+  //     <App />
+  //   )
+  // }
   return (
-    // eslint-disable-next-line react/jsx-filename-extension
-    <div style={{ backgroundColor: '#E6E6FA', width: '100%', height: '100%' }}>
-      <div id="topmenu">
-        <ul>
-          <li><a href="/colobus.html">COLOBUS</a></li>
-          <li style={{ float: 'right' }}><a href="/tryme.html">Try Me</a></li>
-          <li style={{ float: 'right' }}><a href="/login.html">Log In</a></li>
-        </ul>
-      </div>
-      <div className="row">
-        <div className="column">
-          <p>Meeting outcomes wherever you need them most</p>
-        </div>
-        <div className="column">
-          <img src={colobus} />
-        </div>
-      </div>
-      <div>
-        <FeatureCol
-          src={colobus}
-          title="Attach to Calendar Invites"
-          description="Wandering into meetings not knowing what to expect? Wonder
-                    no more with Colobus pre meeting agendas."
-        />
-        <FeatureCol
-          src={colobus}
-          title="Push to Jira"
-          description="You use Jira, we use Jira, everyone uses Jira. Nobody knows
-                    how to get their meeting outcomes in Jira. We do."
-        />
-        <FeatureCol
-          src={colobus}
-          title="Push to Jira"
-          description="You use Jira, we use Jira, everyone uses Jira. Nobody knows
-                    how to get their meeting outcomes in Jira. We do."
-        />
-        <FeatureCol
-          src={colobus}
-          title="Post to Slack"
-          description="If you're like us, you like to be transaparent about your
-                    meetings. Tell the world in Slack."
-        />
-        <FeatureCol
-          src={colobus}
-          title="Attach to Calendar Invites"
-          description="Wandering into meetings not knowing what to expect? Wonder
-                    no more with Colobus pre meeting agendas."
-        />
-        <div id="footer">
-          <div className="footercolumn">
-            <img src={colobus} />
-          </div>
-          <div className="footercolumn">
-            <h3>FOLLOW US</h3>
-            <ul>
-              <li>Facebook</li>
-              <li>Instagram</li>
-              <li>Twitter</li>
-            </ul>
-          </div>
-          <div className="footercolumn">
-            <h3>Company</h3>
-            <ul>
-              <li>About</li>
-              <li>FAQ</li>
-              <li>Terms and Conditions</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+    <PromoScreen />
+  )
 }
 
-export default App;
+export default App

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const FeatureCol = ({ src, title, description }) => (
   <div className="featurescolumn">
@@ -8,4 +8,4 @@ const FeatureCol = ({ src, title, description }) => (
   </div>
 )
 
-export default FeatureCol;
+export default FeatureCol

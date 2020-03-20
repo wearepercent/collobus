@@ -21,5 +21,9 @@ module.exports = {
     'react',
   ],
   rules: {
+    "jsx-a11y/alt-text": "off",
+    "semi": ["error", "never"],
+    "react/jsx-filename-extension": "off",
+    "react/prop-types": "off"
   },
 };

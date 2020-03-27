@@ -11,33 +11,37 @@ const PromoScreen = () => (
         <li style={{ float: 'right' }}><a href="/login.html">Log In</a></li>
       </ul>
     </div>
-    <div className="row">
-      <div className="column">
-        <p>Meeting outcomes wherever you need them most</p>
-      </div>
-      <div className="column">
-        <img src={colobus} />
+    <div className="container">
+      <div className="row">
+        <div style={{ marginTop: 40 }} className="col-6">
+          <p>Meeting outcomes wherever you need them most</p>
+        </div>
+        <div className="col-6">
+          <img src={colobus} />
+        </div>
       </div>
     </div>
-    <div>
-      <FeatureCol
-        src={colobus}
-        title="Attach to Calendar Invites"
-        description="Wandering into meetings not knowing what to expect? Wonder
-                no more with Colobus pre meeting agendas."
-      />
-      <FeatureCol
-        src={colobus}
-        title="Push to Jira"
-        description="You use Jira, we use Jira, everyone uses Jira. Nobody knows
-                how to get their meeting outcomes in Jira. We do."
-      />
-      <FeatureCol
-        src={colobus}
-        title="Post to Slack"
-        description="If you're like us, you like to be transaparent about your
-                meetings. Tell the world in Slack."
-      />
+    <div className="container">
+      <div className="row">
+        <FeatureCol
+          src={colobus}
+          title="Attach to Calendar Invites"
+          description="Wandering into meetings not knowing what to expect? Wonder
+                  no more with Colobus pre meeting agendas."
+        />
+        <FeatureCol
+          src={colobus}
+          title="Push to Jira"
+          description="You use Jira, we use Jira, everyone uses Jira. Nobody knows
+                  how to get their meeting outcomes in Jira. We do."
+        />
+        <FeatureCol
+          src={colobus}
+          title="Post to Slack"
+          description="If you're like us, you like to be transaparent about your
+                  meetings. Tell the world in Slack."
+        />
+      </div>
       <div id="footer">
         <div className="footercolumn">
           <img src={colobus} />

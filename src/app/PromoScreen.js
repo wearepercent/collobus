@@ -42,25 +42,27 @@ const PromoScreen = () => (
                   meetings. Tell the world in Slack."
         />
       </div>
-      <div id="footer">
-        <div className="footercolumn">
-          <img src={colobus} />
-        </div>
-        <div className="footercolumn">
-          <h3>FOLLOW US</h3>
-          <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
-          </ul>
-        </div>
-        <div className="footercolumn">
-          <h3>Company</h3>
-          <ul>
-            <li>About</li>
-            <li>FAQ</li>
-            <li>Terms and Conditions</li>
-          </ul>
+      <div className="container">
+        <div id="footer" className="row">
+          <div className="footercolumn col-6">
+            <img src={colobus} />
+          </div>
+          <div className="footercolumn col-3">
+            <h3>FOLLOW US</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Twitter</li>
+            </ul>
+          </div>
+          <div className="footercolumn col-3">
+            <h3>Company</h3>
+            <ul>
+              <li>About</li>
+              <li>FAQ</li>
+              <li>Terms and Conditions</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

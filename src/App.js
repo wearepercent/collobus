@@ -1,21 +1,24 @@
 import React from 'react'
+import { useAuthState } from 'react-firebase-hooks/auth'
+import firebase from './capabilities/firebase'
 import './App.css'
 import PromoScreen from './app/PromoScreen'
+import AuthApp from './app/AuthApp'
 
+const App = () => {
+  const [
+    user, loading, error,
+  ] = useAuthState(firebase.auth())
 
-function App() {
-  // const [ isloggedIn, setIsLoggedIn ] = useState(false)
-  // useEffect(() => {
-  //   // go check user is logged in or not
-  // }, [])
-  //
-  // if (isloggedIn) {
-  //   return (
-  //     <App />
-  //   )
-  // }
+  if (loading) {
+    return <div>...Loading</div>
+  }
+
+  if (user) {
+    return <AuthApp user={user} />
+  }
   return (
-    <PromoScreen />
+    <PromoScreen authError={error} />
   )
 }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import FeatureCol from '../common/FeatureCol'
 import colobus from '../assets/colobus.png'
+import Login from './Auth/Login'
 
 const PromoScreen = () => (
   <div>
@@ -16,6 +17,7 @@ const PromoScreen = () => (
         <div style={{ marginTop: 40 }} className="col-6">
           <p>Meeting outcomes wherever you need them most</p>
         </div>
+        <Login />
         <div className="col-6">
           <img src={colobus} />
         </div>

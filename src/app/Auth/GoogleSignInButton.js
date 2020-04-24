@@ -4,8 +4,9 @@ const GoogleSignInButton = ({ onClick }) => (
   <button
     type="button"
     onClick={onClick}
+    style={{ border: 'none', borderRadius: '15px', boxShadow: '0 8px 6px -6px rgba(155,155,155,0.2)' }}
   >
-    <div style={{ fontWeight: 'bold', fontSize: 15 }}>
+    <div style={{ border: 'none', backgroundShadow: '0 4px 10px rgba(90,97,105,.25)', color: 'grey!important', padding: '.75rem 1.25rem', borderRadius: '.375rem'}}>
       <svg width="18px" height="18px" viewBox="0 0 118 120" version="1.1" xmlns="http://www.w3.org/2000/svg">
         <title>google_buttn</title>
         <desc>Created with Sketch.</desc>

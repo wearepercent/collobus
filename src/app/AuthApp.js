@@ -1,15 +1,16 @@
 import React from 'react'
+import { Button } from 'antd'
 import firebase from '../capabilities/firebase'
 
 const AuthApp = () => (
   <div>
     App gos here
-    <button
+    <Button
       type="button"
       onClick={() => firebase.auth().signOut()}
     >
       Logout
-    </button>
+    </Button>
   </div>
 )
 

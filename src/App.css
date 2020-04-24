@@ -1,3 +1,12 @@
+@import '~antd/dist/antd.css';
+
+#topmenu {
+  background-color: rgba(255,255,255,0.5);
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 8px 6px -6px rgba(155,155,155,0.1);
+}
+
 #topmenu ul {
   top: 0;
   width: 100%;
@@ -11,7 +20,7 @@
   float: left;
   width: 33.33%;
   padding: 40px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Roboto', Roboto, monospace;
   text-align: center;
 }
 
@@ -25,7 +34,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Roboto', Roboto, monospace;
   font-weight: 400;
 }
 
@@ -42,7 +51,7 @@ body {
   float: left;
   width: 50%;
   padding: 50px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Roboto', Roboto, monospace;
   font-size: 40px;
 }
 
@@ -50,7 +59,7 @@ body {
   float: left;
   width: 20.00%;
   padding: 20px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Roboto', Roboto, monospace;
 }
 
 h2 {

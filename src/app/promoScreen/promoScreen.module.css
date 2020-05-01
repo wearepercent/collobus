@@ -1,5 +1,5 @@
 .gradientBall {
-    position: 'absolute';
+    position: absolute;
     z-Index: -2;
     width: 3000px;
     height: 1500px;

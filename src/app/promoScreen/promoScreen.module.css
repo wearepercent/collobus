@@ -1,25 +1,25 @@
 .gradientBall {
     position: absolute;
-    z-Index: -2;
+    z-index: -2;
     width: 3000px;
     height: 1500px;
     top: -40%;
     left: 15%;
     transform: translateX(-4%);
     background: linear-gradient(rgba(255, 222, 222, 0.5), #DDFFE7);
-    border-Radius: 40%;
+    border-radius: 40%;
     overflow: hidden;
 }
 
 .circle {
     position: absolute;
-    z-Index: -2;
+    z-index: -2;
     width: 500px;
     height: 500px;
     top: 49%;
     left: 0%;
     transform: translateX(-4%);
-    background-Color: #DDFFE7;
-    border-Radius: 50%;
+    background-color: #DDFFE7;
+    border-radius: 50%;
     overflow: hidden;
 }

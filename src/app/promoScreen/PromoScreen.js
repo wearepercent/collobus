@@ -2,36 +2,39 @@ import React from 'react'
 import FeatureCol from '../../common/FeatureCol'
 import colobus from '../../assets/colobus.png'
 import Login from '../Auth/Login'
+import Styles from './promoScreen.module.css'
 
 const PromoScreen = () => (
   <div style={{ position: 'relative', overflow: 'hidden' }}>
     <div
-      style={{
-        position: 'absolute',
-        zIndex: -2,
-        width: '3000px',
-        height: '1500px',
-        top: '-40%',
-        left: '15%',
-        transform: 'translateX(-4%)',
-        background: 'linear-gradient(rgba(255, 222, 222, 0.5), #DDFFE7)',
-        borderRadius: '40%',
-        overflow: 'hidden',
-      }}
+      style={Styles.gradientBall}
+      // style={{
+      //   position: 'absolute',
+      //   zIndex: -2,
+      //   width: '3000px',
+      //   height: '1500px',
+      //   top: '-40%',
+      //   left: '15%',
+      //   transform: 'translateX(-4%)',
+      //   background: 'linear-gradient(rgba(255, 222, 222, 0.5), #DDFFE7)',
+      //   borderRadius: '40%',
+      //   overflow: 'hidden',
+      // }}
     />
     <div
-      style={{
-        position: 'absolute',
-        zIndex: -2,
-        width: '500px',
-        height: '500px',
-        top: '49%',
-        left: '0%',
-        transform: 'translateX(-4%)',
-        backgroundColor: '#DDFFE7',
-        borderRadius: '50%',
-        overflow: 'hidden',
-      }}
+      style={Styles.circle}
+      // style={{
+      //   position: 'absolute',
+      //   zIndex: -2,
+      //   width: '500px',
+      //   height: '500px',
+      //   top: '49%',
+      //   left: '0%',
+      //   transform: 'translateX(-4%)',
+      //   backgroundColor: '#DDFFE7',
+      //   borderRadius: '50%',
+      //   overflow: 'hidden',
+      // }}
     />
     <div id="topmenu">
       <ul>
@@ -88,17 +91,17 @@ const PromoScreen = () => (
           <div className="footercolumn col-3">
             <h3>FOLLOW US</h3>
             <ul>
-              <li>Facebook</li>
-              <li>Instagram</li>
-              <li>Twitter</li>
+              <li><a href="www.wearepercent.com" target="_blank">Facebook</a></li>
+              <li><a href="www.wearepercent.com" target="_blank">Instagram</a></li>
+              <li><a href="www.wearepercent.com" target="_blank">Twitter</a></li>
             </ul>
           </div>
           <div className="footercolumn col-3">
             <h3>Company</h3>
             <ul>
-              <li>About</li>
-              <li>FAQ</li>
-              <li>Terms and Conditions</li>
+              <li><a href="www.wearepercent.com" target="_blank">About</a></li>
+              <li><a href="www.wearepercent.com" target="_blank">FAQ</a></li>
+              <li><a href="www.wearepercent.com" target="_blank">Terms and Conditions</a></li>
             </ul>
           </div>
         </div>

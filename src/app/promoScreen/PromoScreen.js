@@ -2,36 +2,15 @@ import React from 'react'
 import FeatureCol from '../../common/FeatureCol'
 import colobus from '../../assets/colobus.png'
 import Login from '../Auth/Login'
+import Styles from './promoScreen.module.css'
 
 const PromoScreen = () => (
   <div style={{ position: 'relative', overflow: 'hidden' }}>
     <div
-      style={{
-        position: 'absolute',
-        zIndex: -2,
-        width: '3000px',
-        height: '1500px',
-        top: '-40%',
-        left: '15%',
-        transform: 'translateX(-4%)',
-        background: 'linear-gradient(rgba(255, 222, 222, 0.5), #DDFFE7)',
-        borderRadius: '40%',
-        overflow: 'hidden',
-      }}
+      style={Styles.gradientBall}
     />
     <div
-      style={{
-        position: 'absolute',
-        zIndex: -2,
-        width: '500px',
-        height: '500px',
-        top: '49%',
-        left: '0%',
-        transform: 'translateX(-4%)',
-        backgroundColor: '#DDFFE7',
-        borderRadius: '50%',
-        overflow: 'hidden',
-      }}
+      style={Styles.circle}
     />
     <div id="topmenu">
       <ul>

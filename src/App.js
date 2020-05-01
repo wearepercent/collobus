@@ -2,7 +2,7 @@ import React from 'react'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import firebase from './capabilities/firebase'
 import './App.css'
-import PromoScreen from './app/PromoScreen'
+import PromoScreen from './app/promoScreen/PromoScreen'
 import AuthApp from './app/AuthApp'
 
 const App = () => {

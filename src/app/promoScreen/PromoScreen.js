@@ -1,8 +1,7 @@
 import React from 'react'
-import { Button } from 'antd'
-import FeatureCol from '../common/FeatureCol'
-import colobus from '../assets/colobus.png'
-import Login from './Auth/Login'
+import FeatureCol from '../../common/FeatureCol'
+import colobus from '../../assets/colobus.png'
+import Login from '../Auth/Login'
 
 const PromoScreen = () => (
   <div style={{ position: 'relative', overflow: 'hidden' }}>
@@ -54,7 +53,7 @@ const PromoScreen = () => (
             display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%', flexDirection: 'column',
           }}
           >
-            <img src={colobus} style={{ marginBottom: 40 }} />
+            <img src={colobus} alt='Collobus' style={{ marginBottom: 40 }} />
             <Login />
           </div>
         </div>
@@ -84,7 +83,7 @@ const PromoScreen = () => (
       <div className="container">
         <div id="footer" className="row">
           <div className="footercolumn col-6">
-            <img src={colobus} />
+            <img src={colobus} alt='Collobus'/>
           </div>
           <div className="footercolumn col-3">
             <h3>FOLLOW US</h3>

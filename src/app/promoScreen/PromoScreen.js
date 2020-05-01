@@ -67,17 +67,17 @@ const PromoScreen = () => (
           <div className="footercolumn col-3">
             <h3>FOLLOW US</h3>
             <ul>
-              <li>Facebook</li>
-              <li>Instagram</li>
-              <li>Twitter</li>
+              <li><a href="www.wearepercent.com">Facebook</a></li>
+              <li><a href="www.wearepercent.com">Instagram</a></li>
+              <li><a href="www.wearepercent.com">Twitter</a></li>
             </ul>
           </div>
           <div className="footercolumn col-3">
             <h3>Company</h3>
             <ul>
-              <li>About</li>
-              <li>FAQ</li>
-              <li>Terms and Conditions</li>
+              <li><a href="www.wearepercent.com">About</a></li>
+              <li><a href="www.wearepercent.com">FAQ</a></li>
+              <li><a href="www.wearepercent.com">Terms and Conditions</a></li>
             </ul>
           </div>
         </div>
